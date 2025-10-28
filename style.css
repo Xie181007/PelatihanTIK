@@ -1,8 +1,38 @@
 body {
     background: linear-gradient(to right,rgb(16, 135, 247)blue,cyan);
     font-family: Arial, sans-serif;
+    color:black;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between; /* logo kiri, link kanan */
+  align-items: center; /* biar sejajar vertikal */
+  background-color: #222;
+  padding: 10px 20px;
+}
+
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00bcd4; /* warna hover */
+}
 .kartu-profile {
     background: rgb(28, 236, 174);
     width: 300px;
