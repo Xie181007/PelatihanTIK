@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to right,rgb(16, 135, 247)blue,cyan);
+    margin: 0;
+}
+
+#navbar {
+    background:linear-gradient(to right, rgb(16, 135, 247), blue ,aqua);
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+}
